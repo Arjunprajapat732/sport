@@ -1,0 +1,77 @@
+.navbar-brand{
+    margin-left: 100px;
+}
+
+.container{
+    text-align: center;
+}
+.container h1{
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.container p{
+    margin-top: 10px;
+    font-family: Tahoma;
+}
+#third{
+    margin-top: 50px;
+    margin: 50px;
+}
+#third img{
+    margin: 10px;
+    width: 50%;
+}
+.mb-3{
+    margin-top: 30px;
+}
+.mb-3 button{
+    margin-top: 20px;
+
+}
+.ending{
+    background-color: black;
+    color: white;
+   padding: 50px;
+}
+.ending h3{
+    margin-top: 50px;
+}
+.social{
+    margin-top: 50px;
+}
+.social a{
+    font-size: 40px;
+    padding-left: 100px;
+}
+.social h5{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+   
+}
+@media(max-width:428px){
+    .social a{
+        font-size: 20px;
+        padding-left: 20px;
+        
+    }
+    .navbar-brand{
+        margin-left: 10px;
+    }
+}
+@media(max-width:674px){
+    .social a{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media(max-width:674px){
+    .container p{
+       text-decoration: none;
+      
+    
+    }
+}
